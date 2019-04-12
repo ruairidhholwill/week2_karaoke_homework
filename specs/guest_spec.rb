@@ -20,11 +20,11 @@ class GuestTest < MiniTest::Test
   end
 
   def test_guest_wants_to_check_in
-    assert_equal(true, @guest1.guest_wants_to_check_in?)
+    assert_equal(true, @guest1.guest_wants_to_check_in)
   end
 
   def test_guest_wants_to_check_out
-    assert_equal(true, @guest2.guest_wants_to_check_out?)
+    assert_equal(true, @guest2.guest_wants_to_check_out)
   end
 
 end
