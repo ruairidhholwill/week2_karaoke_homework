@@ -1,6 +1,7 @@
 class Guest
 
-  attr_reader :name, :wallet
+  attr_reader :name
+  attr_accessor :wallet
 
   def initialize(name, wallet)
     @name = name
@@ -15,7 +16,13 @@ class Guest
     return true
   end
 
-
+  def enough_money_to_enter_room?(room)
+    if @wallet >= room.entry_fee
+      true
+    else
+      false
+    end
+  end
 
 
 

@@ -27,7 +27,7 @@ class Room
 
   def add_song_to_playlist(song)
     if @songs.include?(song)
-      @songs.count
+      return "This song is already in the queue!"
     else
       @songs.push(song).count
     end
