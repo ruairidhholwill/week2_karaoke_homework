@@ -15,8 +15,4 @@ class SongTest < MiniTest::Test
     assert_equal("Reach", @song1.title)
   end
 
-
-
-
-
 end

@@ -24,8 +24,4 @@ class Guest
     end
   end
 
-
-
-
-
 end

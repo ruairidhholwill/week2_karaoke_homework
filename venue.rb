@@ -16,11 +16,5 @@ attr_accessor :till
       return "Sorry, not today."
     end
   end
-
-
-
-
-
-
-
+  
 end

@@ -40,6 +40,4 @@ class GuestTest < MiniTest::Test
     assert_equal(false, result)
   end
 
-
-
 end

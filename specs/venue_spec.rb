@@ -35,8 +35,4 @@ class VenueTest < MiniTest::Test
     assert_equal(100.00, @venue.till)
   end
 
-
-
-
-
 end
